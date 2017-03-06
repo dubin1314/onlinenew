@@ -2,301 +2,139 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>首页</title>
+    <title>在线考试系统</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="icon" href="image/logo.png"/>
     <link rel="stylesheet" href="css/common.css"/>
+
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
     
-    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/myTest.css"/>
 </head>
 <body>
     <div id="header"></div>
     <div id="main">
         <div id="aside" class="aside-container"></div>
         <div id="center_container">
-            <!--账号信息-->
-            <div id="myMessage">
-                <!--主体头部-->
-                <div class="main_center_top">
-                    <h3>我的信息</h3>
-                </div>
-                <!--主体内容-->
-                <div class="main_center_middle">
-                    <div class="row">
-                        <div class="col-xs-2">
-                            <b>用户名：</b>
-                        </div>
-                        <div class="col-xs-10">
-                            <span>feiyuan</span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-2">
-                            <b >准考证号：</b>
-                        </div>
-                        <div class="col-xs-10">
-                            <span class="text-danger h4">131213131313</span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-2">
-                            <b>姓名：</b>
-                        </div>
-                        <div class="col-xs-10">
-                            <span>张三</span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-2">
-                            <b>性别：</b>
-                        </div>
-                        <div class="col-xs-10">
-                            <span>女</span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-2">
-                            <b>身份证号：</b>
-                        </div>
-                        <div class="col-xs-10">
-                            <span>1434242242424242424</span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-2">
-                            <b>所属单位：</b>
-                        </div>
-                        <div class="col-xs-10">
-                            <span>热力公司</span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-2">
-                            <b>批次：</b>
-                        </div>
-                        <div class="col-xs-10">
-                            <span>2</span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-2">
-                            <b>注册时间：</b>
-                        </div>
-                        <div class="col-xs-10">
-                            <span>2017-03-01 12:00</span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-2">
-                            <b>更新时间：</b>
-                        </div>
-                        <div class="col-xs-10">
-                            <span>2017-03-01 12:00</span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-2">
-                        </div>
-                        <div class="col-xs-10">
-                            <a class="btn btn-primary" onclick="myprint()">打印</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <!--自我监测-->
             <div id="myTest">
-                <div class="main_center_top">
-                    <h3>自我监测</h3>
-                </div>
-                <!--主体内容-->
-                <div class="main_center_middle">
-                    <div class="row">
-                        <div class="col-xs-2">
-                            <b>试卷名称：</b>
-                        </div>
-                        <div class="col-xs-10">
-                            <input type="text" name="e_name" form="my_exam"/>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-2">
-                            <b>试卷时长：</b>
-                        </div>
-                        <div class="col-xs-10">
-                            <input type="text" name="e_name" form="my_exam"/><span>分钟</span>
-                        </div>
-                    </div>
-                    <div class="row more-row">
-                        <div class="col-xs-2">
-                            <b>章节设定：</b>
-                        </div>
-                        <div class="col-xs-10">
-                            <ul class="list-unstyled">
-                                <li><button class="btn btn-primary">增加章节</button></li>
-                                <li><input type="text" name="c_name" form="my_exam" placeholder="章节名称"/></li>
-                                <li>
-                                    <select name="q_classify_id">
-                                        <option selected value="0">请选择题库</option>
-                                        <option value="1">测试题库一</option>
-                                        <option value="2">测试题库二</option>
-                                        <option value="3">测试题库三</option>
-                                        <option value="4">测试题库四</option>
-                                    </select>
-                                    <select name="c_type">
-                                        <option selected value="0">请选择题型</option>
-                                        <option value="1">单选题</option>
-                                        <option value="2">多选题</option>
-                                        <option value="3">判断题</option>
-                                        <option value="4">实操题</option>
-                                    </select>
-                                    <span>试题数量:</span>
-                                    <input type="text" name="c_num" form="my_exam"/>
-                                    <span>每题分值:</span>
-                                    <input type="text" name="c_score" form="my_exam"/>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-2">
-                        </div>
-                        <div class="col-xs-10">
-                            <button class="btn btn-primary">提交</button>
-                            <button class="btn btn-default">跳过设置，快速开始</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--自我监测记录-->
-            <div id="myTestresult">
                 <div class="main_center_top">
                     <h3>模拟考试查询</h3>
                 </div>
                 <!--主体内容-->
+                <p>按科目及章节筛选：
+                    <select>
+                        <option selected value="0">请选择题库</option>
+                        <option value="1">测试题库一</option>
+                        <option value="2">测试题库二</option>
+                        <option value="3">测试题库三</option>
+                        <option value="4">测试题库四</option>
+                    </select>
+                </p>
                 <div class="main_center_middle">
                     <div class="row">
-                        <div class="col-xs-3">
+                        <div class="col-xs-2">
+                            <span>章节名称</span>
+                        </div>
+                        <div class="col-xs-2">
                             <span>试卷名称</span>
                         </div>
                         <div class="col-xs-2">
-                            <span>卷面总分</span>
+                            <span>考试时长</span>
                         </div>
                         <div class="col-xs-2">
-                            <span>考试得分</span>
+                            <span>总分</span>
                         </div>
                         <div class="col-xs-2">
-                            <span>考试时间</span>
-                        </div>
-                        <div class="col-xs-1">
-                            <span>耗时</span>
+                            <span>练习进度</span>
                         </div>
                         <div class="col-xs-2">
                             <span>操作</span>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-3">
+                        <div class="col-xs-2">
                             <span>自我检测_2017-03-01</span>
                         </div>
                         <div class="col-xs-2">
-                            <span>42</span>
+                            <span>自我检测_2017-03-01</span>
                         </div>
                         <div class="col-xs-2">
                             <span>32</span>
                         </div>
                         <div class="col-xs-2">
-                            <span>2017-03-01 15:03:38.0</span>
-                        </div>
-                        <div class="col-xs-1">
-                            <span>22</span>
+                            <span>100</span>
                         </div>
                         <div class="col-xs-2">
-                            <span><a href="">查看详情</a> <a href="">删除</a></span>
+                            <span>18/20</span>
+                        </div>
+                        <div class="col-xs-2">
+                            <span><a class="btn btn-danger btn-xs" href="">开始考试</a> <a class="btn btn-default btn-xs" href="">清除记录</a></span>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-3">
+                        <div class="col-xs-2">
                             <span>自我检测_2017-03-01</span>
                         </div>
                         <div class="col-xs-2">
-                            <span>42</span>
+                            <span>自我检测_2017-03-01</span>
                         </div>
                         <div class="col-xs-2">
                             <span>32</span>
                         </div>
                         <div class="col-xs-2">
-                            <span>2017-03-01 15:03:38.0</span>
-                        </div>
-                        <div class="col-xs-1">
-                            <span>22</span>
+                            <span>100</span>
                         </div>
                         <div class="col-xs-2">
-                            <span><a href="">查看详情</a> <a href="">删除</a></span>
+                            <span>18/20</span>
+                        </div>
+                        <div class="col-xs-2">
+                            <span><a class="btn btn-danger btn-xs" href="">开始考试</a> <a class="btn btn-default btn-xs" href="">清除记录</a></span>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-3">
+                        <div class="col-xs-2">
                             <span>自我检测_2017-03-01</span>
                         </div>
                         <div class="col-xs-2">
-                            <span>42</span>
+                            <span>自我检测_2017-03-01</span>
                         </div>
                         <div class="col-xs-2">
                             <span>32</span>
                         </div>
                         <div class="col-xs-2">
-                            <span>2017-03-01 15:03:38.0</span>
-                        </div>
-                        <div class="col-xs-1">
-                            <span>22</span>
+                            <span>100</span>
                         </div>
                         <div class="col-xs-2">
-                            <span><a href="">查看详情</a> <a href="">删除</a></span>
+                            <span>18/20</span>
+                        </div>
+                        <div class="col-xs-2">
+                            <span><a class="btn btn-danger btn-xs" href="">开始考试</a> <a class="btn btn-default btn-xs" href="">清除记录</a></span>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-3">
+                        <div class="col-xs-2">
                             <span>自我检测_2017-03-01</span>
                         </div>
                         <div class="col-xs-2">
-                            <span>42</span>
+                            <span>自我检测_2017-03-01</span>
                         </div>
                         <div class="col-xs-2">
                             <span>32</span>
                         </div>
                         <div class="col-xs-2">
-                            <span>2017-03-01 15:03:38.0</span>
-                        </div>
-                        <div class="col-xs-1">
-                            <span>22</span>
+                            <span>100</span>
                         </div>
                         <div class="col-xs-2">
-                            <span><a href="">查看详情</a> <a href="">删除</a></span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <span>自我检测_2017-03-01</span>
+                            <span>18/20</span>
                         </div>
                         <div class="col-xs-2">
-                            <span>42</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>32</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>2017-03-01 15:03:38.0</span>
-                        </div>
-                        <div class="col-xs-1">
-                            <span>22</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span><a href="">查看详情</a> <a href="">删除</a></span>
+                            <span><a class="btn btn-danger btn-xs" href="">开始考试</a> <a class="btn btn-default btn-xs" href="">清除记录</a></span>
                         </div>
                     </div>
                     <div class="pages text-center">
@@ -308,14 +146,12 @@
                         <a href="#">5</a>
                         <a href="#" class="default">下一页</a>
                     </div>
+                </div>
             </div>
         </div>
-        <form id="my_exam"></form>
     </div>
     <script src="js/jquery-1.11.3.js"></script>
-    <script src="js/jquery-migrate-1.2.1.min.js"></script>
-    <script language="javascript" src="js/jquery.jqprint-0.3.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/index.js"></script>
-</div>
+    <script src="js/myTest.js"></script>
+</body>
 </html>

@@ -1,7 +1,7 @@
 $(function(){
 //加载页面头部
     $("#aside").load('sidebar.html',function(){
-        navText("模拟考试成绩查询");
+        navText("管理试题");
     })});
 layui.use('form', function(){
     var $ = layui.jquery, form = layui.form();

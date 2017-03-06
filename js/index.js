@@ -1,12 +1,8 @@
-/**
- * Created by Administrator on 2017/2/28.
- */
-$("#aside ul li").on("click","a", function (e) {
-    $(this).parent().addClass("active").siblings(".active").removeClass("active");
-    e.preventDefault();
-    var id = $(this).attr('href');
-    $(id).addClass('active').siblings('.active').removeClass('active');
-})
+$(function(){
+//加载页面头部
+    $("#aside").load('sidebar.html',function(){
+        navText("我的信息");
+    })});
 function myprint(){
     $("#myMessage a").css("display","none");
     $("#myMessage").jqprint();

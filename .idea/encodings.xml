@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/css/common.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css/account.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/bootstrap-theme.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/bootstrap-theme.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/bootstrap.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/code.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/common.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/laydate.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/layer.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/layui.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/testLibrary.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/yanzhengma.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/fonts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fonts" charset="GBK" />
     <file url="file://$PROJECT_DIR$/image/background.jpg" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/js/jquery-migrate-1.2.1.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/js/bootstrap.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/html5shiv.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/jquery-migrate-1.2.1.min.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/js/jquery.jqprint-0.3.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/layer.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/respond.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/test.js" charset="UTF-8" />
   </component>
 </project>

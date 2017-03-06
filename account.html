@@ -2,165 +2,182 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>首页</title>
+    <title>在线考试系统</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/common.css"/>
     <link rel="icon" href="image/logo.png"/>
+    <link rel="stylesheet" href="css/layui.css"/>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
     
-    <link rel="stylesheet" href="css/myTestresult.css"/>
+    <link rel="stylesheet" href="css/account.css"/>
 </head>
 <body>
     <div id="header"></div>
     <div id="main">
         <div id="aside" class="aside-container"></div>
         <div id="center_container">
-            <!--自我监测记录-->
-            <div id="myTestresult">
+            <!--管理用户-->
+            <div class="layui-form" id="account">
                 <div class="main_center_top">
-                    <h3>模拟考试查询</h3>
+                    <h3>用户管理</h3>
                 </div>
-                <!--主体内容-->
-                <div class="main_center_middle">
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <span>试卷名称</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>卷面总分</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>考试得分</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>考试时间</span>
-                        </div>
-                        <div class="col-xs-1">
-                            <span>耗时</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>操作</span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <span>自我检测_2017-03-01</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>42</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>32</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>2017-03-01 15:03:38.0</span>
-                        </div>
-                        <div class="col-xs-1">
-                            <span>22</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span><a id="ddd" href="">查看详情</a> <a href="">删除</a></span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <span>自我检测_2017-03-01</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>42</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>32</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>2017-03-01 15:03:38.0</span>
-                        </div>
-                        <div class="col-xs-1">
-                            <span>22</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span><a href="">查看详情</a> <a href="">删除</a></span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <span>自我检测_2017-03-01</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>42</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>32</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>2017-03-01 15:03:38.0</span>
-                        </div>
-                        <div class="col-xs-1">
-                            <span>22</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span><a href="">查看详情</a> <a href="">删除</a></span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <span>自我检测_2017-03-01</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>42</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>32</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>2017-03-01 15:03:38.0</span>
-                        </div>
-                        <div class="col-xs-1">
-                            <span>22</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span><a href="">查看详情</a> <a href="">删除</a></span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <span>自我检测_2017-03-01</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>42</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>32</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span>2017-03-01 15:03:38.0</span>
-                        </div>
-                        <div class="col-xs-1">
-                            <span>22</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <span><a href="">查看详情</a> <a href="">删除</a></span>
-                        </div>
-                    </div>
-                    <div class="pages text-center">
-                        <a href="#" class="default">上一页</a>
-                        <a href="#" class="cur">1</a>
-                        <a href="#" >2</a>
-                        <a href="#">3</a>
-                        <a href="#">4</a>
-                        <a href="#">5</a>
-                        <a href="#" class="default">下一页</a>
-                    </div>
-                    </div>
+                <p>用户管理，您可以在如下列表中选择用户进行修改或删除
+                </p>
+                <p><button data-toggle="modal" data-target="#addUser" class="btn btn-info">新增用户</button></p>
+                <div class="form-group">
+                    <label  class="col-sm-2 control-label">姓名:</label>
+                    <input class="col-sm-2 form-control" type="text" name="c_name"/>
+                    <label  class="col-sm-2 control-label">准考证号:</label>
+                    <input class="col-sm-2 form-control" type="text" name="U_CANDIDATE_NUMBER"/>
+                    <a href="#"  class="btn btn-info">搜索</a>
+                </div>
+                <table class="main_center_middle layui-table text-center" lay-skin="line">
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose"></th>
+                            <th>用户名</th>
+                            <th>准考证号</th>
+                            <th>姓名</th>
+                            <th>性别</th>
+                            <th>身份证号</th>
+                            <th>所属单位</th>
+                            <th>批次</th>
+                            <th>注册时间</th>
+                            <th>更新时间</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><input type="checkbox" name="" lay-skin="primary"></td>
+                        <td>用户名1</td>
+                        <td>1212121212</td>
+                        <td>dubin</td>
+                        <td>男</td>
+                        <td>121212121212121</td>
+                        <td>热力公司</td>
+                        <td>1</td>
+                        <td>12：23</td>
+                        <td>12：23</td>
+                        <td><a href="#">考试记录</a>|<a href="#">修改</a>|<a href="#">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" lay-skin="primary"></td>
+                        <td>用户名1</td>
+                        <td>1212121212</td>
+                        <td>dubin</td>
+                        <td>男</td>
+                        <td>121212121212121</td>
+                        <td>热力公司</td>
+                        <td>1</td>
+                        <td>12：23</td>
+                        <td>12：23</td>
+                        <td><a href="#">考试记录</a>|<a href="#">修改</a>|<a href="#">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" lay-skin="primary"></td>
+                        <td>用户名1</td>
+                        <td>1212121212</td>
+                        <td>dubin</td>
+                        <td>男</td>
+                        <td>121212121212121</td>
+                        <td>热力公司</td>
+                        <td>1</td>
+                        <td>12：23</td>
+                        <td>12：23</td>
+                        <td><a href="#">考试记录</a>|<a href="#">修改</a>|<a href="#">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" lay-skin="primary"></td>
+                        <td>用户名1</td>
+                        <td>1212121212</td>
+                        <td>dubin</td>
+                        <td>男</td>
+                        <td>121212121212121</td>
+                        <td>热力公司</td>
+                        <td>1</td>
+                        <td>12：23</td>
+                        <td>12：23</td>
+                        <td><a href="#">考试记录</a>|<a href="#">修改</a>|<a href="#">删除</a></td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="pages text-center">
+        <a href="#" class="default">上一页</a>
+        <a href="#" class="cur">1</a>
+        <a href="#" >2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#" class="default">下一页</a>
+    </div>
+    <!--模态框-->
+    <div class="modal fade" id="addUser" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                    <h4 class="modal-title text-center">新建用户</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-unstyled text-center">
+                        <li class="form-group">
+                            <label>用户名：
+                            <input type="text"  name="username" ></label>
+                        </li>
+                        <li class="form-group">
+                            <label>密码：
+                            <input type="password"  name="userpwd" ></label>
+                        </li>
+                        <li class="form-group">
+                            <label>准考证号：
+                            <input type="text"  name="U_CANDIDATE_NUMBER" ></label>
+                        </li>
+                        <li class="form-group">
+                            <label>真实姓名：
+                            <input type="text"  name="U_NAME" ></label>
+                        </li>
+                        <li class="form-group">
+                            <label>性别：
+                            <input type="text"  name="U_SEX" ></label>
+                        </li>
+                        <li class="form-group">
+                            <label>身份证号：
+                            <input type="text"  name="U_ID_NUMBER" ></label>
+                        </li>
+                        <li class="form-group">
+                            <label>所属单位：
+                            <input type="text"  name="U_SUBORDINATE_UNITS" ></label>
+                        </li>
+                        <li class="form-group">
+                            <label>批次：
+                            <input type="text"  name="U_BATCH" ></label>
+                        </li>
+                        <li class="form-group">
+                            <label>创建时间：
+                            <input type="date"  name="U_CREATE_TIME" ></label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="submit" class="btn btn-primary">提交</button>
+                </div>
             </div>
         </div>
     </div>
     <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/layui.all.js" charset="utf-8"></script>
     <script src="js/main.js"></script>
     <script src="js/myTestresult.js"></script>
 </body>

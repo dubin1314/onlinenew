@@ -1,0 +1,49 @@
+#manageTest th,#account td{
+    text-align: center;
+}
+.form-group input{
+    width: 150px;
+}
+#manageTest .form-group label {
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    width: 110px;
+    color:#222;
+    text-align: right;
+}
+#manageTest .form-group label:first-child {
+    margin-left: -30px;
+}
+#manageTest .form-group a{
+    margin-left: 20px;
+}
+#manageTest  .form-group{
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+}
+.form-group ul:after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0;
+}
+.form-group ul li{
+    float: left;
+    margin-right: 20px;
+}
+#testShow li{
+    text-align: left;
+}
+#testShow li p{
+    line-height: 30px;
+    margin-top: 10px;
+    background: #EEEEEE;
+}
+#manageTest>p button{
+    margin-right: 10px;
+}
+table tr td a{
+    color: #e43;
+}

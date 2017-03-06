@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/layui.css"/>
+    <link rel="icon" href="image/logo.png"/>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+    <link rel="stylesheet" href="css/manageTest.css"/>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="main">
+        <div id="aside" class="aside-container"></div>
+        <div id="center_container">
+            <!--管理试题-->
+            <div class="layui-form" id="manageTest">
+                <div class="main_center_top">
+                    <h3>管理试题</h3>
+                </div>
+                <p>试题管理，您可以在如下列表中选择试题进行修改或删除。
+                </p>
+                <p>
+                    <button data-toggle="modal" data-target="#addUser" class="btn btn-info">新增试题</button><button data-toggle="modal" data-target="#addUser" class="btn btn-info">管理试题</button>
+                </p>
+                <div class="form-group">
+                    <ul class="list-unstyled">
+                        <li>
+                            <label  class="col-sm-2 control-label">关键词:</label>
+                            <input class="col-sm-2 form-control" type="text" name="c_key"/>
+                        </li>
+                        <li>
+                            <label  class="col-sm-2 control-label">所属题库:</label>
+                            <div class="layui-input-inline">
+                                <select name="quiz1">
+                                    <option value="0">请选择题库</option>
+                                    <option value="1" selected="">题库1</option>
+                                    <option value="2">题库2</option>
+                                    <option value="3">题库3</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li> <label  class="col-sm-2 control-label">试题状态:</label>
+                            <div class="layui-input-inline">
+                                <select name="quiz1">
+                                    <option value="0">试题状态</option>
+                                    <option value="1" selected="">开放</option>
+                                    <option value="2">关闭</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li> <a href="#"  class="btn btn-info">搜索</a></li>
+                    </ul>
+                </div>
+                <table class="main_center_middle layui-table text-center" lay-skin="line">
+                    <thead>
+                    <tr>
+                        <th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose"></th>
+                        <th>所属题库</th>
+                        <th>试题类型</th>
+                        <th>试题状态</th>
+                        <th>试题题干</th>
+                        <th>创建人</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><input type="checkbox" name="" lay-skin="primary"></td>
+                        <td>测试题库</td>
+                        <td>单选题</td>
+                        <td>开放</td>
+                        <td>车辆在较窄的山路上行驶时，如果靠山体的一方不让行，应怎样做？</td>
+                        <td>
+                            admin3
+                        </td>
+                        <td><a data-toggle="modal" data-target="#testShow" href="#">预览</a>|<a href="#">修改</a>|<a href="#">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" lay-skin="primary"></td>
+                        <td>测试题库</td>
+                        <td>单选题</td>
+                        <td>开放</td>
+                        <td>车辆在较窄的山路上行驶时，如果靠山体的一方不让行，应怎样做？</td>
+                        <td>
+                            admin3
+                        </td>
+                        <td><a data-toggle="modal" data-target="#testShow" href="#">预览</a>|<a href="#">修改</a>|<a href="#">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" lay-skin="primary"></td>
+                        <td>测试题库</td>
+                        <td>单选题</td>
+                        <td>开放</td>
+                        <td>车辆在较窄的山路上行驶时，如果靠山体的一方不让行，应怎样做？</td>
+                        <td>
+                            admin3
+                        </td>
+                        <td><a data-toggle="modal" data-target="#testShow" href="#">预览</a>|<a href="#">修改</a>|<a href="#">删除</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="pages text-center">
+                    <a href="#" class="default">上一页</a>
+                    <a href="#" class="cur">1</a>
+                    <a href="#" >2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#" class="default">下一页</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="testShow" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                    <h4 class="modal-title text-left">预览</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-unstyled text-center">
+                        <li class="form-group">
+                            <h4>试题题干：</h4>
+                            <p>车辆在较窄的山路上行驶时，如果靠山体的一方不让行，应怎样做？</p>
+                        </li>
+                        <li class="form-group">
+                            <h4>选项：</h4>
+                            <p>A : 鸣喇叭催其让行</p>
+                            <p>B : 保持正常车速行驶</p>
+                            <p>C : 提前减速或停车避让</p>
+                            <p>D : 向左占道，谨慎驶过</p>
+                        </li>
+                        <li class="form-group">
+                            <h4>试题答案：</h4>
+                            <p class="text-danger">C</p>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="submit" class="btn btn-primary">提交</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/layui.all.js" charset="utf-8"></script>
+    <script src="js/main.js"></script>
+    <script src="js/manageTest.js"></script>
+</body>
+</html>
