@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>在线考试系统</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="icon" href="image/logo.png"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="main">
+        <div id="aside" class="aside-container"></div>
+        <div id="center_container">
+            <!--自我监测-->
+            <div id="myTest">
+                <div class="main_center_top">
+                    <h3>自我监测</h3>
+                </div>
+                <!--主体内容-->
+                <div class="main_center_middle">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <b>试卷名称：</b>
+                        </div>
+                        <div class="col-xs-10">
+                            <input type="text" name="e_name" form="my_exam"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <b>试卷时长：</b>
+                        </div>
+                        <div class="col-xs-10">
+                            <input type="text" name="e_name" form="my_exam"/><span>分钟</span>
+                        </div>
+                    </div>
+                    <div class="row more-row">
+                        <div class="col-xs-2">
+                            <b>章节设定：</b>
+                        </div>
+                        <div class="col-xs-10">
+                            <ul class="list-unstyled">
+                                <li><button class="btn btn-primary">增加章节</button></li>
+                                <li><input type="text" name="c_name" form="my_exam" placeholder="章节名称"/></li>
+                                <li>
+                                    <select name="q_classify_id">
+                                        <option selected value="0">请选择题库</option>
+                                        <option value="1">测试题库一</option>
+                                        <option value="2">测试题库二</option>
+                                        <option value="3">测试题库三</option>
+                                        <option value="4">测试题库四</option>
+                                    </select>
+                                    <select name="c_type">
+                                        <option selected value="0">请选择题型</option>
+                                        <option value="1">单选题</option>
+                                        <option value="2">多选题</option>
+                                        <option value="3">判断题</option>
+                                        <option value="4">实操题</option>
+                                    </select>
+                                    <span>试题数量:</span>
+                                    <input type="text" name="c_num" form="my_exam"/>
+                                    <span>每题分值:</span>
+                                    <input type="text" name="c_score" form="my_exam"/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-2">
+                        </div>
+                        <div class="col-xs-10">
+                            <button class="btn btn-primary">提交</button>
+                            <button class="btn btn-default">跳过设置，快速开始</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/myTest.js"></script>
+</body>
+</html>

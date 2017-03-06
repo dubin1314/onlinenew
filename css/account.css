@@ -1,0 +1,85 @@
+#header{
+    height: 40px;
+    background: #DDDDDD;
+}
+#header>div>div>div{
+    height: 40px;
+    line-height: 40px;
+}
+#header>div>div>div b{
+    color: #0088CC;
+}
+.left_container{
+    margin: 5px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid #eeeeee;
+}
+#main {
+    text-align: center;
+}
+#main_left{
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    width: 210px;
+    padding: 0;
+    height: 4000px;
+    position: fixed;
+    z-index: 100;
+}
+#main h5{
+    margin: 5px auto;
+    padding:5px 0;
+    color: #433f38;
+    width: 180px;
+    border: 1px solid #d4ccb0;
+    background: url("../image/e.png") no-repeat;
+}
+#main #main_left table{
+    width: 180px;
+    margin: 5px auto;
+}
+#main #main_left table tr td{
+    border:0;
+}
+#main_right{
+    padding: 40px;
+    padding-left: 240px;
+    text-align: left;
+    overflow: hidden;
+
+}
+#main_right h3{
+    border-bottom: 2px solid #BCBBB5;
+    padding-bottom : 20px;
+}
+.mycontainer{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.mycontainer>ul{
+    margin-left: 40px;
+}
+.mycontainer>ul li,.mycontainer>p{
+    height: 80px;
+    line-height: 80px;
+}
+.mycontainer input{
+    margin-right: 10px;
+}
+.myfooter{
+    height: 60px;
+    margin-top: 20px;
+}
+.myfooter button{
+    margin:0 20px;
+}
+.layer-content{
+    padding: 50px;
+    line-height: 22px;
+    background-color: #F5F3E5;
+    color: #000;
+    font-weight: 300;
+}

@@ -1,0 +1,57 @@
+/*自我监测*/
+/*#myTest .main_center_middle .col-xs-10 input{*/
+    /*height: 24px;*/
+/*}*/
+/*#myTest .main_center_middle div.more-row .col-xs-10{*/
+    /*height: 100%;*/
+    /*overflow: hidden;*/
+/*}*/
+/*#myTest .main_center_middle div.more-row .col-xs-2{*/
+    /*height: 135px;*/
+/*}*/
+/*#myTest .main_center_middle div.more-row .col-xs-2 b{*/
+    /*line-height: 135px;*/
+/*}*/
+/*#myTest .main_center_middle ul{*/
+    /*margin: 0px -15px;*/
+/*}*/
+/*#myTest .main_center_middle  li{*/
+    /*padding: 0px 15px;*/
+    /*border-bottom: 1px solid #eeeeee;*/
+    /*height: 45px;*/
+    /*line-height: 45px;*/
+    /*box-sizing: border-box;*/
+/*}*/
+/*#myTest .main_center_middle li:last-child{*/
+    /*border: 0;*/
+/*}*/
+/*#myTest select{*/
+    /*margin-right: 10px;*/
+/*}*/
+#myTest div.main_center_middle>div:first-child>div{
+    font-weight: bold;
+    background: #F5F5F5;
+    border: 0;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 2px solid #DDDDDD;
+}
+#myTest div.main_center_middle div{
+    text-align: center;
+    background: #ffffff;
+    border: 0;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #eeeeee;
+}
+#myTest div.main_center_middle>div:hover div{
+    background: #e3e3e3;
+}
+#myTest>p{
+    margin: 20px 0;
+}
+#myTest>p select{
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}

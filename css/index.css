@@ -1,0 +1,227 @@
+#header{
+    background: #368EE0;
+    height: 60px;
+}
+#header h2{
+    padding-left: 90px;
+    line-height: 60px;
+    height: 60px;
+}
+.aside-container{
+    width: 200px;
+    float: left;
+    height: 4000px;
+    text-align: left;
+    background: #EEEEEE;
+    position: fixed;
+}
+.aside-container label{
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 20px;
+    position: relative;
+    z-index: 20;
+    display: block;
+    height: 30px;
+    cursor: pointer;
+    color: #777;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+    line-height: 33px;
+    font-size: 15px;
+    background: #EEEEEE;
+    box-shadow:
+    0px 0px 0px 1px rgba(155,155,155,0.3),
+    1px 0px 0px 0px rgba(255,255,255,0.9) inset,
+    0px 2px 2px rgba(0,0,0,0.1);
+}
+.aside-container label:hover{
+    background: #fff;
+}
+.aside-container ul{
+    color: #777;
+    margin: 8px 0;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+.aside-container>div ul li.active a{
+    font-size: 15px;
+    color: #368EE0;
+    font-weight: bold;
+    text-decoration: none;
+}
+#center_container > div {
+    display: none;
+    padding-left: 200px;
+}
+#center_container > div.active {
+    display: block;
+}
+.aside-container ul li a{
+    padding: 5px 20px;
+}
+.aside-container input:checked + label,
+.aside-container input:checked + label:hover{
+    background: #c6e1ec;
+    color: #3d7489;
+    text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
+    box-shadow:
+    0px 0px 0px 1px rgba(155,155,155,0.3),
+    0px 2px 2px rgba(0,0,0,0.1);
+}
+.aside-container label:hover:after,
+.aside-container input:checked + label:hover:after{
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 13px;
+    top: 7px;
+    background: transparent url(../image/arrow_down.png) no-repeat center center;
+}
+.aside-container input:checked + label:hover:after{
+    background-image: url(../image/arrow_up.png);
+}
+.aside-container input{
+    display: none;
+}
+.aside-container article{
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: -4px;
+    overflow: hidden;
+    height: 0px;
+    position: relative;
+    z-index: 10;
+    -webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+}
+.aside-container input:checked ~ article{
+    -webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -o-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+    -ms-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+    transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+    box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);
+}
+.aside-container input:checked ~ article.ac-small{
+    height: 40px;
+}
+.aside-container input:checked ~ article.ac-medium{
+    height: 60px;
+}
+.aside-container input:checked ~ article.ac-large{
+    height: 35px;
+}
+#center_container{
+    padding:20px;
+}
+/*公共的样式*/
+.main_center_middle{
+    margin-top: 20px;
+    border:1px solid #EEEEEE;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    box-sizing: border-box;
+}
+.main_center_middle .col-xs-2{
+    text-align: right;
+    border-bottom:1px solid #eeeeee;
+    border-right:1px solid #eeeeee;
+    background: #F5F5F5;
+    height: 45px;
+    line-height: 45px;
+    box-sizing: border-box;
+}
+.main_center_middle .col-xs-10{
+    border-bottom:1px solid #eeeeee ;
+    height: 45px;
+    line-height: 45px;
+    box-sizing: border-box;
+}
+/*//账号信息*/
+#myMessage .main_center_middle>div:last-child a{
+    float: right;
+    margin-top: 5px;
+}
+/*自我监测*/
+#myTest .main_center_middle .col-xs-10 input{
+    height: 24px;
+}
+#myTest .main_center_middle div.more-row .col-xs-10{
+    height: 100%;
+    overflow: hidden;
+}
+#myTest .main_center_middle div.more-row .col-xs-2{
+    height: 135px;
+}
+#myTest .main_center_middle div.more-row .col-xs-2 b{
+    line-height: 135px;
+}
+#myTest .main_center_middle ul{
+    margin: 0px -15px;
+}
+#myTest .main_center_middle  li{
+    padding: 0px 15px;
+    border-bottom: 1px solid #eeeeee;
+    height: 45px;
+    line-height: 45px;
+    box-sizing: border-box;
+}
+#myTest .main_center_middle li:last-child{
+    border: 0;
+}
+#myTest select{
+    margin-right: 10px;
+}
+/*模拟考试查询*/
+#myTestresult div.main_center_middle>div:first-child>div{
+    font-weight: bold;
+    background: #F5F5F5;
+    border: 0;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 2px solid #DDDDDD;
+}
+#myTestresult div.main_center_middle div{
+    text-align: center;
+    background: #ffffff;
+    border: 0;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #eeeeee;
+}
+#myTestresult div.main_center_middle>div:hover div{
+    background: #e3e3e3;
+}
+/*分页导航*/
+.pages {
+    text-align: center;
+}
+.pages a {
+    color:#999;
+    box-sizing: border-box;
+    height: 20px;
+    min-width: 20px;
+    border-radius: 2px;
+    display: inline-block;
+    border:1px solid #ddd;
+    margin: 0 2px;
+    padding: 0 4px;
+    line-height: 18px;
+}
+.pages a:hover {
+    border-color:#f8b551;
+    color:#f8b551;
+}
+.pages a.cur {
+    border-color:#f8b551;
+    background: #f8b551;
+    color: #fff;
+}
+.pages a.default {
+    border-color: #ddd;
+    color:#ddd;
+    cursor: default;
+}
