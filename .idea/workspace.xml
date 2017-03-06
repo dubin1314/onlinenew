@@ -2,40 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d25269a-0679-4c9e-9b7b-944dcf8dd89d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/manageTest.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manageTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/manageTest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manageTestlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/online.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/testLibrary.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testPaper.html" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\onlineTest\myTestresult.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/account.css" afterPath="$PROJECT_DIR$/css/account.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account.html" afterPath="$PROJECT_DIR$/account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adminuser.html" afterPath="$PROJECT_DIR$/adminuser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common.css" afterPath="$PROJECT_DIR$/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/layer.js" afterPath="$PROJECT_DIR$/js/layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/layui.all.js" afterPath="$PROJECT_DIR$/js/layui.all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layui.css" afterPath="$PROJECT_DIR$/css/layui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/myTest.css" afterPath="$PROJECT_DIR$/css/myTest.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myTest.html" afterPath="$PROJECT_DIR$/myTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/myTest.js" afterPath="$PROJECT_DIR$/js/myTest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/myTestresult.css" afterPath="$PROJECT_DIR$/css/myTestresult.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/myTestresult.js" afterPath="$PROJECT_DIR$/js/myTestresult.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sidebar.html" afterPath="$PROJECT_DIR$/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startTest.html" afterPath="$PROJECT_DIR$/startTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/startTest.js" afterPath="$PROJECT_DIR$/js/startTest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/test.css" afterPath="$PROJECT_DIR$/css/test.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/test.js" afterPath="$PROJECT_DIR$/js/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="onlineTest.iws" />
@@ -381,6 +347,13 @@
       <option name="number" value="Default" />
       <updated>1488202279106</updated>
     </task>
+    <task id="LOCAL-00001" summary="2017-3-6">
+      <created>1488795137004</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1488795137004</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -389,6 +362,7 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15972222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -396,7 +370,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -419,7 +392,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="2017-3-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="2017-3-6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
